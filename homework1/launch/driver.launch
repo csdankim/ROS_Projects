@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find turtlebot_teleop)/launch/keyboard_teleop.launch">
+        <!-- <remap from="turtlebot_teleop_keyboard/cmd_vel_mux/input/teleop" to="turtlebot_teleop_keyboard/command"/> -->
+    </include>
+    <!-- <include file="$(find turtlebot_stage)/launch/turtlebot_in_stage.launch"/> -->
+    <!-- <node pkg="homework1" type="move2.py" name="move2" output="screen"/>
+    <param name="/Distance" type="double" value ="0.5"/> -->
+    <!-- <remap from="turtlebot_teleop_keyboard" to="teleop"/> -->
+</launch>
